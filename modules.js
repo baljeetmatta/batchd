@@ -37,4 +37,7 @@ function search(path)
     })
 
 }
-search(".");
+//search(".");
+const path=require("path");
+const file=path.extname("./modules.js");
+console.log(file);
